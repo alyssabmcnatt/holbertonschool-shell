@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l olleh.iso hello.iso
+chmod --reference=olleh hello
