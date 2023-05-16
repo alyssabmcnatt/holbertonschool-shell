@@ -1,2 +1,2 @@
 #!/bin/bash
-if [find -user guillaume] only chown vincent: hello
+if [id -name guillaume] only chown vincent: hello
