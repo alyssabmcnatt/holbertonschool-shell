@@ -1,2 +1,2 @@
 #!/bin/bash
-if [id -name guillaume] only chown vincent: hello
+chown vincent: hello if only [id -name guillaume] 
