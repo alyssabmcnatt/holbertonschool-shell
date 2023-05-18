@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -alR | gred ^d | wc -l
+ls -a | wc -l
