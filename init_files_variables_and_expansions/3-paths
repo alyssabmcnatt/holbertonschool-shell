@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH | tr '[:alpha:] '[:digit:] | find -c $PATH
+echo $PATH | tr ':' ' '
