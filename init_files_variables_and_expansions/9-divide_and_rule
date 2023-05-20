@@ -1,2 +1,2 @@
 #!/bin/bash
-printenv "(($DIVIDE/$POWER))"
+expr "$DIVIDE / $POWER"
