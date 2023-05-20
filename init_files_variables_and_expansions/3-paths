@@ -1,2 +1,2 @@
 #!/bin/bash
-find -c type -d $PATH
+find -c | type -d $PATH
