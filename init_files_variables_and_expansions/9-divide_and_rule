@@ -1,2 +1,2 @@
 #!/bin/bash
-expr $(($POWER/$DIVIDED)) 
+expr $(($DIVIDED/$POWER)) 
