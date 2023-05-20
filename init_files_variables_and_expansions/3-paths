@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH | find -c 
+type -d | echo $PATH | find -c 
