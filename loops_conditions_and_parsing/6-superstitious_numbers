@@ -7,15 +7,16 @@ do
 	((x++))
 case $x in
 
-	4
+	
+	$x = '4'
 	echo -n "4\nbad luck from China"
 	;;
 
-	9
+	$x= '9'
 	echo -n "9\nbad luck from Japan"
 	;;
 
-	17
+	$x= '17'
 	echo -n "17\nbad luck from Italy"
 	;;
 esac
