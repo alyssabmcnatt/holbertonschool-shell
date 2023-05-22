@@ -10,9 +10,10 @@ do
 	elif ((x % 3))
 	then 
 		echo "Fizz"
-	else ((x % 5))
+	elif ((x % 5))
 	then 
 		echo "Buzz"
+	else $x
 	fi
 ((x++)) 
 done
