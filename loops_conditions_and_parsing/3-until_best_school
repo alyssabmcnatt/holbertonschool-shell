@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # until loops
 i=$((i + 1))
-until [ $i -ge 10 ]
+until [ $i -gt 10 ]
 do
 	echo "Best School"
-	((i++))
+	if [ $i == 11 ]
 	break
 done
