@@ -6,11 +6,9 @@ do
 	if [[ "$x" == '4' ]]
 	then
 		echo "bad luck"
-		break
 	elif [[ "$x" == '8' ]]
 	then
 		echo "good luck"
-		break
 	else
 		echo "Best School"
 	((x++))
