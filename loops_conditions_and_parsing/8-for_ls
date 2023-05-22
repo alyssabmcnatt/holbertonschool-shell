@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 # must use for loop
-export i
-for i in {1}
+for x in *
 do
-	ls . | cut -d- -f2
+	echo $x | cut -d- -f2
 done
