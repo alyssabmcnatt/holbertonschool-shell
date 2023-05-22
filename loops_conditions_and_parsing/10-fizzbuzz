@@ -12,7 +12,7 @@ do
 		echo "Fizz"
 	else ((x % 5))
 	then 
-		echo "Buz"
+		echo "Buzz"
 	fi
 ((x++)) 
 done
