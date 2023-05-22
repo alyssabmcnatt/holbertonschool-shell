@@ -7,12 +7,10 @@ do
 	if ((x % 15))
 	then
 		echo "FizzBuzz"
-	fi
-	if ((x % 3))
+	elif ((x % 3))
 	then 
 		echo "Fizz"
-	fi
-	if ((x % 5))
+	else ((x % 5))
 	then 
 		echo "Buz"
 	fi
