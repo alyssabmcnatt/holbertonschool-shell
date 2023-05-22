@@ -4,7 +4,7 @@ FILE=school
 if [[ test -f "$FILE" ]]
 then
 	echo "school file exists"
-	if [[ -s "$FILE" ]]
+	if [[ test -s "$FILE" ]]
 	then
 		echo "school file is not empty"
 	else
