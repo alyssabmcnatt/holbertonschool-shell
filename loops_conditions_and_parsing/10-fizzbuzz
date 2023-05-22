@@ -1,9 +1,8 @@
 #!/usr/bin/env bash
 # fizzbuzz
 x=1
-while ((x < 100))
+while ((x <= 100))
 do
-	echo $x
 	if ((x % 15))
 	then
 		echo "FizzBuzz"
