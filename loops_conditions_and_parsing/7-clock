@@ -1,15 +1,15 @@
 #!/usr/bin/env bash
 # clock
-x=0
-while [ $x -lt 13 ]
+h=0
+while [ $h -lt 13 ]
 do
-	echo "hour: $x"
-
-	while [ $x -lt 60 ]
+	echo "hour: $h"
+s=1
+	while [ $s -lt 60 ]
 	do
-		echo $x
-		((x++))
+		echo $s
+		((s++))
 	done
-((x++))
+((h++))
 done
 
