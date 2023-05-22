@@ -3,5 +3,5 @@
 export i
 for i in {1}
 do
-	ls . | cut -d- .
+	ls . | cut -d- -f2
 done
