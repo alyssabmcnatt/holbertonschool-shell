@@ -8,15 +8,15 @@ case $x in
 
 	
 	4)
-	echo -n "4\nbad luck from China"
+	echo -n "bad luck from China"
 	;;
 
 	9)
-	echo -n "9\nbad luck from Japan"
+	echo -n "bad luck from Japan"
 	;;
 
 	17)
-	echo -n "17\nbad luck from Italy"
+	echo -n "bad luck from Italy"
 	;;
 esac
 
