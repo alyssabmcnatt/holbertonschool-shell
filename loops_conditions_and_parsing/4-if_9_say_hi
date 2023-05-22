@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # saying hi
 x=1
-while [ $x -le 9 ]
+while [ $x -le 10 ]
 do
-	if [[ "$x" == '9' ]]
+	if [[ "$x" == '8' ]]
 	then 
 		echo "Hi"
 	fi 
