@@ -4,7 +4,6 @@ x=1
 while [ $x -lt 21 ]
 do
 	echo $x
-	((x++))
 case $x in
 
 	
