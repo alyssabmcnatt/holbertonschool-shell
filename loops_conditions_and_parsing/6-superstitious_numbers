@@ -8,15 +8,15 @@ do
 case $x in
 
 	
-	$x == '4'
+	4)
 	echo -n "4\nbad luck from China"
 	;;
 
-	$x == '9'
+	9)
 	echo -n "9\nbad luck from Japan"
 	;;
 
-	$x == '17'
+	17)
 	echo -n "17\nbad luck from Italy"
 	;;
 esac
