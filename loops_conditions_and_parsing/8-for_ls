@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# must use for loop
+export i
+for i in {1}
+do
+	ls -l
+done
