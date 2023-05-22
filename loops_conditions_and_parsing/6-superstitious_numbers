@@ -20,4 +20,6 @@ case $x in
 	;;
 esac
 
+((x++))
+
 done	
