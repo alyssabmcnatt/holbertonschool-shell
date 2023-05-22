@@ -1,4 +1,5 @@
 #!/user/bin/env bash
+# saying hi
 x=1
 while [ $x -le 10 ]
 do
