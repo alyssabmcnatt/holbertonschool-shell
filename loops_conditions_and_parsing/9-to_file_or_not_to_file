@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
 # to file or not to file
 FILE=school
-if [[ test -f "$FILE" ]]
+if [ -f "$FILE" ]
 then
 	echo "school file exists"
-	if [[ test -s "$FILE" ]]
+	if [ -s "$FILE" ]
 	then
 		echo "school file is not empty"
 	else
 		echo "school file is empty"
 	fi
-	if [[ test -f "$FILE" ]]
+	if [ -f "$FILE" ]
 	then
 		echo "school is a regular file"
 	fi
