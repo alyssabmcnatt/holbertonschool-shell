@@ -10,5 +10,6 @@ do
 		echo $x
 		((x++))
 	done
+	((x++))
 done
 
