@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 # until loops
-x=1
-i=x+1
+i=$((i + 1))
 until [ $i == 10 ]
 do 
 	echo "Best School"
