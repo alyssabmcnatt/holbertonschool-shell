@@ -13,7 +13,8 @@ do
 	elif ((x % 5))
 	then 
 		echo "Buzz"
-	else $x
+	else 
+		echo $x
 	fi
 ((x++)) 
 done
