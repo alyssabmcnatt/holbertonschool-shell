@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# reading and cutting
+FILE=/etc/passwd
+while [ -f $FILE ]
+do 
+	whoami $FILE
+	id $FILE
+	pwd 
+done  
